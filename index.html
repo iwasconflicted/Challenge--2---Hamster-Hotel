@@ -19,54 +19,58 @@
 
 </head>
 
+<!-- Navbar -->
 <body>
+  <div class="container-fluid mx-0 px-0 d-none d-lg-block">
+    <nav>
+      <ul class="nav justify-content-center d-flex align-items-end blackBG">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Overview</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Rooms</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Packages</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <img
+              class="logoSize"
+              src="./images/Logo.png"
+              alt="La Petite Maison, Logo for Hamster Hotel."
+            />
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Amenities</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link squareHover ms-2">Reserve</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
 
-  <nav class="navbar" style="background-color: #000234;">
-    <div class="container-fluid justify-content-center">
-
-      <a class="navbar-brand" href=""><img src="./images/Logo.png" alt=""></a>
-
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-
-
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
+<!-- First BG -->
+  <div class="container-fluid firstBG">
+    <div class="container">
+      <div class="row">
+        <div class="col px-0"></div>
+        <div class="col-9 text-center firstText">
+          <h1 class="header1">Run on the wheel of luxury</h1>
+          <p class="caption1">
+            Explore everything the beach has to offer in our relaxing resort.
+          </p>
+        </div>
+        <div class="col px-0"></div>
       </div>
     </div>
-  </nav>
-
-
-
-  <div class="container-fluid">
-
-    <img src="./images/header.jpg" alt="" width="100%">
-    <div class="centered">
-
-      Run on the wheel of luxury
-
-      <br>
-      Explore everything the beach has to offer in our relaxing resort.
-
-    </div>
-
-
   </div>
+
 
   <br>
   <br>
@@ -89,7 +93,7 @@
         <br>
         <br>
         <h5>Inspired by the warm beauty of the California Coast, we invite you to enjoy the rich accommodations along
-          with our unmatched luxury. Discover the satisfaction of indulding in our quality rooms, and thank you for
+          with our unmatched luxury. Discover the satisfaction of indulging in our quality rooms, and thank you for
           choosing La Petite Maison.</h5>
 
         <br>
@@ -109,13 +113,6 @@
         </div>
 
 
-        <!-- <img src="./images/awardgenuine.png" alt="">
-            <img src="./images/awardsatisfaction.png" alt="">
-            <img src="./images/awardfinest.png" alt="">
-
-         -->
-
-
       </div>
     </div>
   </div>
@@ -125,13 +122,12 @@
   <br>
   <br>
 
-  <!-- <center><h1>Our Rooms</h1></center> -->
+  <!-- Rooms -->
 
   <br>
 
-
   <div class="card text-bg-dark">
-    <img src="./images/bg2.jpg" class="card-img" alt="...">
+     <img src="./images/bg2.jpg" class="card-img" alt="..."> 
     <div class="card-img-overlay">
       <br>
       <h1 class="card-title">
@@ -147,6 +143,7 @@
 
 
             <div class="card h-100">
+
               <img src="./images/room1.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Queen Room</h5>
@@ -176,13 +173,9 @@
                   <li>One king size bed</li>
                   <li>Seed Bar, fireplace and large balcony</li>
                   <li>Small kitchen with a refrigerator and stove</li>
-
                 </p>
-
                 <br>
                 <br>
-
-
                 <a href="#" class="btn btn-primary">Reserve</a>
               </div>
             </div>
@@ -220,11 +213,12 @@
   </div>
 
 
-
   <br>
   <br>
   <br>
 
+
+  <!-- Packages -->
   <h1>
     <center>Packages</center>
   </h1>
@@ -249,7 +243,7 @@
         <br>
         <h6>Feel the warmth of the beach as the flames in your hearts ignite during our romantic beach side wedding. All
           wedding packages include catering, an open bar, and one iter wedding cake (9" Vanilla standard cake). A
-          private dinner for your closest family members and friends will be provdied after the ceremony.</h6>
+          private dinner for your closest family members and friends will be provided after the ceremony.</h6>
 
       </div>
     </div>
@@ -314,29 +308,41 @@
     <br>
     <br>
 
-
-    <div class="container-fluid">
-
-      <img src="./images/bg.jpg" alt="" width="100%">
-      <div class="centered">Amenities
-
-        <br>
-        Here at La Petite Maison, we invite you to enjoy our services in hopes that you have the most relaxing stay we
-        can provide.
-
-
+    <!-- Amenities -->
+    <div class="container-fluid amenitiesBG d-none d-xl-block">
+      <div class="row">
+          <div class="col text-center">
+              <h1 class="amenities-header">Amenities</h1>
+              <p class="amenities-text">Here at La Petite Maison, we invite you to enjoy our services in hopes that
+                  you have the most relaxing stay we can provide.</p>
+          </div>
       </div>
 
-
-    </div>
-
+      <div class="container d-flex justify-content-center">
+          <div class="row">
+              <div class="col">
+                  <img class="amenities-img" src="./images/24hour.png" alt="" width="150px" height="101px">
+                  <p class="img-title">24 Hour Room Service</p>
+              </div>
+              <div class="col">
+                  <img class="amenities-img" src="./images/breakfast.png" alt="" width="150px" height="104px">
+                  <p class="img-title">Complimentary Breakfast</p>
+              </div>
+              <div class="col">
+                  <img class="amenities-img" src="./images/valet.png" alt="" width="150px" height="115px">
+                  <p class="img-title">Valet Parking</p>
+              </div>
+              <div class="col">
+                  <img class="amenities-img" src="./images/pool.png" alt="" width="150px" height="110px">
+                  <p class="img-title">Beachside Pool</p>
+              </div>
+          </div>
+      </div>
   </div>
 
-  <br>
-  <br>
-  <br>
 
-  <div class="container">
+<!-- Reservations -->
+  <div class="container reservationBG d-none d-lg-block">
     <div class="row">
       <div class="col text-center">
         <h1 class="reserve-title my-4">Reserve a Room</h1>
@@ -372,33 +378,28 @@
         <button type="button" class="btn btn-primary">Check Availability</button>
       </div>
     </div>
+    <br>
     <div class="row d-none d-lg-block">
 
       <img src="./images/hamsterreserve.jpg" alt="" width="100%" height="414px">
-    </div>
+    </div> 
 
 
 
-    <br>
-    <br>
-    <br>
-
-
-
-    <nav class="navbar" style="background-color: #000234;">
-
-      <div class="container-fluid justify-content-center"></div>
-
-      <a class="navbar-brand" href=""><img src="./images/Logo.png" alt=""></a>
-      <span class="navbar-text">
-        <br><br>
-
-        123 Sunflower Seed Rd., Cavia, California 95205
-        <br>
-        @LA PETITE MAISON HOTELS LIMITED 1939-2018. ALL RIGHTS RESERVED.
-      </span>
-  </div>
-  </nav>
+<footer>
+      <div class="container-fluid d-none d-md-block"> 
+          <div class="row">
+              <div class="col d-flex justify-content-center mt-4">
+                  <img src="./images/Logo.png" alt=""> 
+              </div>
+          </div>
+          <div class="row footer-txt text-center mt-4">
+              <p class="mb-4">123 Sunflower Seed Rd., Cavia, California 95205</p>
+              <p class="footer-margin">©LA PETITE MAISON HOTELS LIMITED 1939-2018. ALL RIGHTS RESERVED.</p>
+          </div>
+      </div>
+    
+</footer> 
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
